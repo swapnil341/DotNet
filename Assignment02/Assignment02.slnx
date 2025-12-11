@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../Part_A_Collections/Part_A_Collections.csproj" />
+  <Project Path="Part_B_LINQ.csproj" />
+</Solution>
