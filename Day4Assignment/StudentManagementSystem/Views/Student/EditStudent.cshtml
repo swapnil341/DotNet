@@ -1,0 +1,30 @@
+﻿@model Assignment4a.Models.Student;
+
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <form action="/Student/AfterEditStudent/">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <table>
+            <tbody>
+                <tr>
+                    <td>Enter Student First Name </td>
+                    <td><input type="text" name="First_Name" value="@Model.First_Name" /></td>
+                </tr>
+                <tr>
+                    <td>Enter Student Last Name </td>
+                    <td><input type="text" name="Last_Name" value="@Model.Last_Name" /></td>
+                </tr>
+
+                <tr>
+                    <td><button type="submit">Add</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+</body>
+</html>

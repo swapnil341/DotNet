@@ -1,0 +1,48 @@
+﻿@model List<Assignment4a.Models.Course>;
+@{
+    ViewBag.Title = "courses";
+}
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <form action="/Student/AfterAddStudent/">
+        <table>
+            <tr>
+                <td>Enter Student First Name </td>
+                <td><input type="text" name="First_Name" /></td>
+            </tr>
+            <tr>
+                <td>Enter Student Last Name </td>
+                <td><input type="text" name="Last_Name" /></td>
+            </tr>
+            <tr>
+                <td>Select Student Course </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <select name="Id">
+                        @foreach (var item in Model)
+                        {
+                            <option value="@item.Id">@item.Course_Name</option>
+                        }
+                    </select>
+
+                <td>
+                    
+                </td>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+
+                <td><button type="submit">Add</button></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

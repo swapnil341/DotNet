@@ -1,0 +1,37 @@
+﻿@model List<Assignment4a.Models.Student>
+
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<Title>First MVC Demo</Title>
+<body>
+    <a href="/Student/AddStudent/">Add</a>
+    <table class="table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th scope="Id">Id</th>
+                <th scope="First_Name">First_Name</th>
+                <th scope="Last_Name">Last_Name</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.First_Name</td>
+                    <td>@item.Last_Name</td>
+                    <td><a href="/Student/EditStudent/@item.Id">Edit</a></td>
+                    <td><a href="/Student/DeleteStudent/@item.Id">Delete</a></td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+       <td><a href="/Course/DisplayAllCourses/">Courses</a></td>
+</body>

@@ -1,0 +1,21 @@
+﻿@model Assignment4a.Models.Student
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <form action="/Student/AfterAddCourse/@Model">
+        <table>
+            <tr>
+                <td>Enter Course Name</td>
+                <td><input type="text" name="Course_Name" /></td>
+            </tr>
+           <tr>
+                <td><button type="submit">Add</button></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
