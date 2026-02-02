@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github Repos\\DotNet\\PersonalInfo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BBDD36-3519-4D9C-B7B8-157137B20CE2}|PersonalInfo\\PersonalInfo.csproj|d:\\github repos\\dotnet\\personalinfo\\personalinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BBDD36-3519-4D9C-B7B8-157137B20CE2}|PersonalInfo\\PersonalInfo.csproj|solutionrelative:personalinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github Repos\\DotNet\\PersonalInfo\\PersonalInfo\\Program.cs",
+              "RelativeDocumentMoniker": "PersonalInfo\\Program.cs",
+              "ToolTip": "D:\\Github Repos\\DotNet\\PersonalInfo\\PersonalInfo\\Program.cs",
+              "RelativeToolTip": "PersonalInfo\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:39:15.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
